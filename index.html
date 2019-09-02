@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+<h1></h1>
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input  id="x1"class="input-field" type="text"  placeholder="Username" name="Username">
+    <p class="kname"></p>
+</div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input id="x2" class="input-field" type="text"  placeholder="Email" name="email"/>
+    <p class="kemail"></p>      
+</div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input id="x3" class="input-field" type="password"  placeholder="Password" name="psw">
+    <p class="kpassword"></p>  
+</div>
+        <label class="container">Male
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Female
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+              </label>    
+
+
+  <button type="submit" class="btn" disabled >Register</button>
+</form>
+  </body>
+</html>
